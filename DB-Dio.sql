@@ -18,4 +18,5 @@ CREATE TABLE `Dio`.`pessoa` (
   `nascimento` DATE NULL,
   PRIMARY KEY (`id`));
 
-  INSERT INTO pessoas (nome, nascimento) VALUES ('Raphael', '1989-11-25');
+  INSERT INTO pessoas (nome, nascimento)
+  VALUES ('Raphael', '1989-11-25');
